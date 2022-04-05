@@ -1,12 +1,24 @@
-# Tags: latest, 1.19.9-1-debian-10-r229, 1.19.9-1, 1.19-debian-10, 1.19
+# Tags: latest, 1.19.9-1-debian-10-r233, 1.19.9-1, 1.19-debian-10, 1.19
 FROM bitnami/openresty:latest
-FROM bitnami/openresty:1.19.9-1-debian-10-r229
+FROM bitnami/openresty:1.19.9-1-debian-10-r233
 FROM bitnami/openresty:1.19.9-1
 FROM bitnami/openresty:1.19-debian-10
 FROM bitnami/openresty:1.19
 
 # Tags: _
 FROM bitnami/openresty:_
+
+# Tags: 1.19.9-1-debian-10-r232
+FROM bitnami/openresty:1.19.9-1-debian-10-r232
+
+# Tags: 1.19.9-1-debian-10-r231
+FROM bitnami/openresty:1.19.9-1-debian-10-r231
+
+# Tags: 1.19.9-1-debian-10-r230
+FROM bitnami/openresty:1.19.9-1-debian-10-r230
+
+# Tags: 1.19.9-1-debian-10-r229
+FROM bitnami/openresty:1.19.9-1-debian-10-r229
 
 # Tags: 1.19.9-1-debian-10-r228
 FROM bitnami/openresty:1.19.9-1-debian-10-r228
@@ -82,15 +94,3 @@ FROM bitnami/openresty:1.19.9-1-debian-10-r205
 
 # Tags: 1.19.9-1-debian-10-r204
 FROM bitnami/openresty:1.19.9-1-debian-10-r204
-
-# Tags: 1.19.9-1-debian-10-r203
-FROM bitnami/openresty:1.19.9-1-debian-10-r203
-
-# Tags: 1.19.9-1-debian-10-r202
-FROM bitnami/openresty:1.19.9-1-debian-10-r202
-
-# Tags: 1.19.9-1-debian-10-r201
-FROM bitnami/openresty:1.19.9-1-debian-10-r201
-
-# Tags: 1.19.9-1-debian-10-r200
-FROM bitnami/openresty:1.19.9-1-debian-10-r200
